@@ -1,0 +1,20 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+import "./index.css";
+
+import * as ButtonStories from './button.stories'; // Импортируем истории
+import { PropsDocs } from '../../../scripts/docgen/PropsDocs'
+import json from './button.properties.json'
+
+<Meta of={ButtonStories} />
+
+# Elements/Button
+
+This is button.
+
+<Canvas>
+  <Story of={ButtonStories.Variant} />
+</Canvas>
+
+## CSS Variables
+
+<PropsDocs json={json} />
