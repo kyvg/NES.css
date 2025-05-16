@@ -1,0 +1,16 @@
+.nes-text.is-primary {
+  color: var(--nes-color-primary);
+}
+
+.nes-text.is-success {
+  color: var(--nes-color-secondary);
+}
+
+.nes-text.is-warning {
+  color: var(--nes-color-warning);
+}
+
+.nes-text.is-danger {
+  color: var(--nes-color-danger);
+}
+

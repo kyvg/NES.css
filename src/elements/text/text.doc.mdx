@@ -1,0 +1,15 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+import "./index.css";
+
+import * as TextStories from './text.stories'; // Импортируем истории
+
+<Meta of={TextStories} />
+
+# Elements/Text
+
+This is text.
+
+<Canvas>
+  <Story of={TextStories.Variant} />
+</Canvas>
+
