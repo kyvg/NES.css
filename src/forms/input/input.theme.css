@@ -1,0 +1,40 @@
+/**
+ * Global CSS Variables
+ *
+ * There are  variables that you can change.
+ */
+.nes-input {
+  /* Color theme */
+  --nes-input-color: var(--nes-color-dark);
+  --nes-input-bg-color: var(--nes-color-default);
+  --nes-input-border-color: var(--nes-color-dark);
+  --nes-input-border-color-inner: var(--nes-color-default-shade);
+
+  /* Appearance */
+  --nes-input-border-width: 4px;
+}
+
+
+/**
+ * Secondary theme
+ */
+.nes-input.is-secondary {
+  --nes-input-border-color: var(--nes-color-secondary);
+  --nes-input-border-color-outline: var(--nes-color-secondary-shade);
+}
+
+/**
+ * Warning theme
+ */
+.nes-input.is-warning {
+  --nes-input-border-color: var(--nes-color-warning);
+  --nes-input-border-color-outline: var(--nes-color-warning-shade);
+}
+
+/**
+ * Danger theme
+ */
+.nes-input.is-danger {
+  --nes-input-border-color: var(--nes-color-danger);
+  --nes-input-border-color-outline: var(--nes-color-danger-shade);
+}

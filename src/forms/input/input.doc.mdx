@@ -1,0 +1,15 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+import "./index.css";
+
+import * as InputStories from './input.stories'; // Импортируем истории
+
+<Meta of={InputStories} />
+
+# Elements/Text
+
+This is text.
+
+<Canvas>
+  <Story of={InputStories.Showcase} />
+</Canvas>
+

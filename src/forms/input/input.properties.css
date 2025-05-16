@@ -1,0 +1,21 @@
+@property --nes-input-border-color {
+  /* border color */
+  syntax: '<color>';
+  inherits: true;
+  initial-value: var(--nes-color-dark);
+}
+
+@property --nes-input-border-color-outline {
+  /* outline border color */
+  syntax: '<color>';
+  inherits: true;
+  initial-value: var(--nes-color-default-shade);
+}
+
+@property --nes-input-border-width {
+  /* border width */
+  syntax: '<line-width>';
+  inherits: true;
+  initial-value: 4px;
+}
+
